@@ -8,10 +8,11 @@ An owner of a working women hostel is interested in developing a Django applicat
 The application should maintain details of hostel members. The Manager needs to have
 a database with the following details:
 Aadhar Number, Name, Age, Residential Address, Native Place, Mobile Number. A web framework should be developed to perform the following operations:
-a. A method to add member details into the database.
-b. Given a mobile number, a method to display details of a particular person in a
-web page
-c. A method to display the current occupant details in a web page
+
+- A method to add member details into the database.
+- Given a mobile number, a method to display details of a particular person in a
+  web page
+- A method to display the current occupant details in a web page
 
 # Hostel Management App using Django
 
