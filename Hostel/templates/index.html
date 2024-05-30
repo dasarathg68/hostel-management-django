@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hostel Management Database</title>
+</head>
+<body>
+	<h1>Details of the occupants</h1>
+	{% for member in hostel%}
+<h4>Occupant number:{{forloop.counter}}</h4><br>
+Name of the occupant	:	{{member.Name}}<br>
+Age of the occupant		:	{{member.Age}}<br>
+Aadhar Number			:	{{member.Aadhar_No}}<br>
+Residential Address     :	{{member.Residential_Address}}<br>
+Native Place			:	{{member.Native_Place}}<br>
+Mobile Number			:	{{member.Mobile_No}}<br>
+
+
+{%endfor%}
+<br>
+<a href="http://localhost:8000/">Go back to home</a><br>
+</body>
+</html>
